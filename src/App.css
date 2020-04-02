@@ -15,7 +15,7 @@ html,body {
   margin: 0;
   font-weight: 200;
   letter-spacing: 2px;
-  background: url('./assets/bg.png') no-repeat center center fixed;
+  background: url('./assets/bg.png') no-repeat center center;
   background-size: cover;
   background-color: #1c1c1c;
 }
@@ -23,10 +23,10 @@ html,body {
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
-  align-items: baseline;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .name {
@@ -84,6 +84,7 @@ a.links:hover {
 .icons {
   display: flex;
   justify-content: flex-end;
+  padding: 15px;
 }
 
 @-webkit-keyframes fadeIn {
@@ -162,18 +163,19 @@ a.links:hover {
   }
 }
 
-.top {
+.status {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 15px;
+  justify-content: center;
 }
 
 .status p {
   margin: 0;
-  color: #FFF;
+  color: #fff;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  background-color: rgba(0,0,0,.6);
+  padding: 3px;
 }
 
 .pulse {
