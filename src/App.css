@@ -59,7 +59,7 @@ h3 {
   font-family: 'PT Mono', monospace;
   display: inline-flex;
   font-size: 4vw;
-  text-shadow: 4px 2px 6px #ffd200;
+  text-shadow: 4px 2px #ffd200;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   -webkit-animation-fill-mode: both;
