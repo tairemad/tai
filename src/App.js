@@ -1,4 +1,3 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <section className="icons">
         <a href="https://twitter.com/tairemadailey" target="_blank" rel="noopener noreferrer" className="links"><FontAwesomeIcon icon={faTwitter} size="lg" className="svg"/></a>
         <a href="https://www.facebook.com/tairemadailey" target="_blank" rel="noopener noreferrer" className="links"><FontAwesomeIcon icon={faFacebookF} size="lg" className="svg" /></a>
@@ -23,7 +22,7 @@ function App() {
           <p><span className="pulse"></span> Available for Freelance Work Only</p>
         </section>
       </section>
-  </React.Fragment>
+  </>
   );
 }
 
