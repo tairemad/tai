@@ -7,7 +7,6 @@ function App() {
   return (
     <>
       <section className="icons">
-        <a href="https://twitter.com/tairemadailey" target="_blank" rel="noopener noreferrer" className="links"><FontAwesomeIcon icon={faTwitter} size="lg" className="svg"/></a>
         <a href="https://www.facebook.com/tairemadailey" target="_blank" rel="noopener noreferrer" className="links"><FontAwesomeIcon icon={faFacebookF} size="lg" className="svg" /></a>
         <a href="https://www.linkedin.com/in/tairema" target="_blank" rel="noopener noreferrer" className="links"><FontAwesomeIcon icon={faLinkedinIn} size="lg" className="svg" /></a>
         <a href="https://github.com/tairemad" target="_blank" rel="noopener noreferrer" className="links"><FontAwesomeIcon icon={faGithub} size="lg" className="svg" /></a>
