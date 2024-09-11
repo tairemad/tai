@@ -15,7 +15,7 @@ function App() {
       <section className="container">
         <section className="name">
           <h1>Tairema Dailey</h1>
-          <h3>Front-End Developer</h3>
+          <h3>Front-End Software Engineer</h3>
         </section>
         <section className="status">
           <p><span className="pulse"></span> Available for Freelance Work Only</p>
